@@ -1,0 +1,48 @@
+/* src/components/TareasList.css */
+.tareas-list {
+    margin-top: 20px;
+  }
+  
+  .tarea-item {
+    list-style-type: none;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+  }
+  
+  .tarea-item.completada {
+    background-color: #e0f7fa; /* Cambia el color para tareas completadas */
+  }
+  
+  button {
+    margin-left: 10px;
+  }
+  
+  /* Estilos para las tarjetas */
+  .tarea-tarjeta {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+
+.tareas-tarjetas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .tarea-tarjeta {
+    width: 300px;
+    margin: 10px;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .tarea-tarjeta.completada {
+    background-color: #e0f7fa; /* Cambia el color para tareas completadas */
+  }
